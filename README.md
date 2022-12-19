@@ -5,7 +5,9 @@
 <br>Jurusan		: [Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 ## Deskripsi Umum
-
+Array dua dimensi adalah sebutan untuk array yang penomoran index-nya menggunakan 2 buah angka. Analogi lain adalah matriks. Matrixs Merupakan kumpulan-kumpulan bilangan yang disusun secara baris (vertikal) dan kolom (horizontal) bisa disebut juga array dua dimensi (multi-dimensional). Transpose Matriks adalah memperoleh sebuah matriks dengan cara menukar baris menjadi kolom dan kolom menjadi baris dari sebuah matriks. Dalam matematika, matriks terdiri dari kolom dan baris. Kembali, untuk menentukan nilai dari sebuah matriks, kita harus sebut secara berpasangan seperti baris 1 kolom 1, atau baris 2 kolom 3, dst. Konsep seperti inilah yang menjadi dasar dari array 2 dimensi. Untuk membuat array 2 dimensi di dalam bahasa C++, caranya tulis 2 kali tanda kurung siku setelah nama variabel, seperti contoh berikut:
+int arr[2][2];
+Pada UAS semester 1 ini saya diminta untuk membuat 2 buah program yaitu program pertama adalah membuat array 2 dimensi dengan baris , kolom dan nilai nya di input lalu ditukarkan antara kolom dan baris (transpose) lalu untuk program ke dua yaitu digunakan untuk mencari nilai yang dapat di bagi 3, 7, dan 5.
 
 ## Source Code
 #include <iostream>
@@ -62,8 +64,6 @@ int main()
 
 ## Output
 ![image](https://user-images.githubusercontent.com/121008252/208376431-8728dd9c-9c0b-470c-894c-4b737c12db5d.png)
-	
-## Deskripsi Umum
 
 ## Source Code
 #include <iostream>
